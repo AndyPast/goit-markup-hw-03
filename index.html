@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home work 1</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  <body>
-    <!-- Шапка сайта -->
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"><span class="logo-header">Web</span>Studio</a
-        >
-        <ul class="site-nav list">
-          <li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Home work 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link />
+  <link href="./css/modern.normalize"/>
+  <link rel="stylesheet" href="./css/styles.css" />
+
+<body>
+
+  <!-- Шапка сайта -->
+
+  <header class="header">
+    <div class="container">
+      <nav class="main-nav">
+
+        <a href="./index.html" class="logo"><span class="logo-header">Web</span class="accent">Studio</a>
+
+        <ul class="site-nav list ">
+          <li class="item">
             <a href="./index.html" class="list-link link-current">Студия</a>
           </li>
-          <li>
+          <li class="item">
             <a href="./portfolio.html" class="list-link">Портфолио</a>
           </li>
-          <li>
+          <li class="item">
             <a href="Контакты" class="list-link">Контакты</a>
           </li>
         </ul>
-      </nav>
+    
+    <ul class="auth-nav list">
+      <li class="item">
+        <a href="mailto:info@devstudio.com" class="list-link link-cont">info@devstudio.com</a>
+      </li>
+      <li class="item">
+        <a href="tel:+380961111111" class="list-link link-cont">+380961111111</a>
+      </li>
+    </ul>
+  </nav>
+  </div>
+  </header>
 
-      <ul class="list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="list-link link-cont"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="list-link link-cont"
-            >+380961111111</a
-          >
-        </li>
-      </ul>
-    </header>
-    <main>
-      <section class="section">
-        <h1 class="text">Эффективные решения для вашего бизнеса</h1>
+  <main>
+    <!-- Hero -->
+    <section class="section-hero">
+      <div class="box-text">
+
+        <h1 class="text">Эффективные решения для <br> вашего бизнеса</h1>
 
         <button type="button" class="button-one">Заказать услугу</button>
-      </section>
+      </div>
+    </section>
 
-      <!-- Описание приимуществ -->
-      <section>
+    <!-- Описание приимуществ -->
+
+    <section class="section">
+      <div class="container">
         <!-- <h2 class="text-main">Описание преимуществ</h2> -->
-        <ul class="list-item">
+        <ul class="list-item box-works">
           <li>
             <h3 class="text-list text-adv">Внимание к деталям</h3>
             <p class="text-script">
@@ -82,39 +93,30 @@
             </p>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <h2 class="text-main">Чем мы занимаемся</h2>
-        <ul class="list-item">
-          <li>
-            <img
-              src="./images/photo1.jpeg"
-              alt="Смартфон"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/photo2.jpeg"
-              alt="Смартфон"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/photo3.jpeg"
-              alt="Планшет"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
+    <section class="section ">
+      <div class="container">
+      <h2 class="text-main">Чем мы занимаемся</h2>
+      <ul class="list-item devises">
+        <li>
+          <img src="./images/photo1.jpeg" alt="Смартфон" width="370" height="294" />
+        </li>
+        <li>
+          <img src="./images/photo2.jpeg" alt="Смартфон" width="370" height="294" />
+        </li>
+        <li>
+          <img src="./images/photo3.jpeg" alt="Планшет" width="370" height="294" />
+        </li>
+      </ul>
+      </div>
+    </section>
 
-      <section class="section-images">
+<!-- Наша команда -->
+
+    <section class="class=" section section-images>
+      <div class="container">
         <h2 class="text-main">Наша команда</h2>
 
         <ul class="list-item">
@@ -129,11 +131,8 @@
             <p class="text-job">Frontend Developer</p>
           </li>
           <li>
-            <img
-              src="./images/nikolay.jpeg"
-              alt="Николай маркетолог"
-              width="270"
-            />
+            <img src="./images/nikolay.jpeg" alt="Николай маркетолог" width="270" />
+
             <h3 class="text-name">Николай Тарасов</h3>
             <p class="text-job">Marketing</p>
           </li>
@@ -143,31 +142,32 @@
             <p class="text-job">UI Designer</p>
           </li>
         </ul>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <footer class="foot">
-      <a href="./index.html" class="logo"
-        ><span class="logo-header">Web</span
-        ><span class="logo-footer">Studio</span></a
-      >
+  <!-- Footer -->
+
+  <footer class="foot">
+    <div class="container">
+      <a href="./index.html" class="logo"><span class="logo-header">Web</span>
+        <span class="logo-footer">Studio</span></a>
       <address>
         <ul class="list">
           <li>
-            <a href="https://goo.gl/maps/P4V3GdsKR6i7VE34A" class="link-adress"
-              >г.Киев,пр-тЛесиУкраинки,26</a
-            >
+            <a href="https://goo.gl/maps/P4V3GdsKR6i7VE34A" target="_blank"
+            rel="noopener noreferrer"  class="link-adress">г.Киев,пр-тЛесиУкраинки,26</a>
           </li>
           <li>
-            <a href="mailto:info@example.com" class="foot-cont"
-              >info@example.com</a
-            >
+            <a href="mailto:info@example.com" class="foot-cont">info@example.com</a>
           </li>
           <li>
             <a href="tel:+380961111111" class="foot-cont">+380961111111</a>
           </li>
         </ul>
       </address>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
