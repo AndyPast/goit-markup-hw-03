@@ -344,28 +344,6 @@ html {
   margin: 15px;
 }
 
-/* .container-portfolio {
-  background-color: aquas;
-} */
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.flex-element {
-  width: 380px;
-  background-color: tomato;
-}
-
-.flex-element:nth-child(3n) {
-  margin-right: 0;
-}
-*/ .section-images {
-  background-color: var(--buttons-color);
-}
-
-/* Team */
-
 .section-team {
 }
 
