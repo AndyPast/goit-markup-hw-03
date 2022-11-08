@@ -778,62 +778,42 @@ ul {
   margin-bottom: 0px;
 }
 
-.button-portfolio {
-  height: 38px;
-  width: 112px;
-
+.buttons {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  min-height: 38px;
+  padding: 6px 22px;
   border-radius: 4px;
-  background: rgb(244, 250, 248);
+
+  background: var(--buttons-color);
+  border: transparent;
+}
+
+.blue,
+.buttons:hover {
+  border: 1px solid rgba(33, 150, 243, 1);
+  border-radius: 4px;
+}
+
+.blue {
+  background: rgba(33, 150, 243, 1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 
   font-family: "Roboto";
-
-  font-weight: 500px;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
-
-  /* identical to box height, or 162% */
-
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: var(--background-color)
-  cursor: pointer;
-}
-
-
-.button-portfolio:focus {
-  background-color: var(--primery-fon-color);
-  color: var(--body-text-color);
-}
-.button-portfolio:hover {
-  color: var(--body-text-color);
-  border-color: rgba(33, 150, 243, 1);
-}
-
-
-.button-portfolio-all {
-  height: 38px;
-  width: 73px;
-
-  border-radius: 4px;
-  background: rgba(33, 150, 243, 1);
-
-  border-color: rgba(33, 150, 243, 1);
-
-  cursor: pointer;
-  fill: Solid;
-  color: #ffffff;
-}
-.button-portfolio-all:focus {
-  background-color: var(--primery-fon-color);
-  color: var(--body-text-color);
-  cursor: pointer;
-}
-.button-portfolio-all:hover {
-  color: var(--body-text-color);
-  border-color: var(--secondary-color);
-}
-.button-portfolio-all {
+  line-height: 1.62;
+  color: var(--background-color);
   cursor: pointer;
 }
 
