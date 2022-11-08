@@ -786,36 +786,18 @@ ul {
   min-height: 38px;
   padding: 6px 22px;
   border-radius: 4px;
-
   background: var(--buttons-color);
   border: transparent;
 }
 
-.blue,
-.buttons:hover {
-  border: 1px solid rgba(33, 150, 243, 1);
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--secondary-color);
   border-radius: 4px;
-}
-
-.blue {
-  background: rgba(33, 150, 243, 1);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
-
-  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  line-height: 1.62;
   color: var(--background-color);
-  cursor: pointer;
 }
+
+/* Картинки */
 
 .section__box {
   padding-bottom: 94px;
