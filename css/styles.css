@@ -144,9 +144,8 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  /* font-size: 14px; */
   background-color: var(--background-color);
-  font-family: Roboto, sans-serif;
   color: var(--primary-color);
 }
 
@@ -209,20 +208,15 @@ ul {
   color: var(--primary-color);
 }
 
-.header .link.current.studio:hover,
-.header .link.current.studio:focus {
+.link.current:hover,
+.link.current:focus {
   color: var(--secondary-color);
 }
 
-.header .link:hover,
-.header .link:focus {
+.link:hover,
+.link:focus {
   color: var(--secondary-color);
 }
-
-/* .link-mail {
-  text-decoration: none;
-  color: var(--contacts-color);
-} */
 
 /* Навигация */
 
@@ -258,8 +252,6 @@ ul {
 .studio .link {
   color: var(--secondary-color);
 }
-
-/* Nav */
 
 .auth-nav.list {
   display: flex;
@@ -316,7 +308,7 @@ ul {
   color: var(--secondary-color);
 }
 
-/* Hero */
+/* Герой */
 
 .section {
   padding-top: 94px;
@@ -324,6 +316,7 @@ ul {
 }
 
 .box-hero {
+  max-width: 1600px;
   height: 600px;
   margin-left: 0px;
   background-size: contain;
@@ -341,9 +334,9 @@ ul {
 }
 
 .text {
+  font-style: "Roboto", sans-serif;
   padding: 0px 0px;
   margin-bottom: 30px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -353,23 +346,17 @@ ul {
 /* hero button */
 
 .button-one {
-  width: 216px;
   height: 50px;
   border-radius: 4px;
-
-  /* display: flex; */
+  border: transparent;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 10px 32px;
   text-align: center;
-  border: transparent;
-
-  text-decoration: none;
-
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 6%;
+  text-decoration: none;
+  letter-spacing: 0.06em;
   color: var(--background-color);
 
   background-color: var(--secondary-color);
