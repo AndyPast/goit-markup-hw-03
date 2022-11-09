@@ -282,17 +282,7 @@ ul {
   margin-left: 50px;
 }
 
-.header__link__mail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 31px;
-  padding-bottom: 31px;
-  gap: 10px;
-  text-decoration: none;
-  color: var(--contacts-color);
-}
-
+.header__link__mail,
 .header__link__tel {
   display: flex;
   justify-content: center;
